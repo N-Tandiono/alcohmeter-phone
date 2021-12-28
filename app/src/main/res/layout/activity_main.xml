@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/FrontPage"
+        android:layout_width="171dp"
+        android:layout_height="48dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="How many drinks have you had today?"
+        android:translationY="900px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/OpenCamera"
+        android:layout_width="431dp"
+        android:layout_height="65dp"
+        android:onClick="OpenCamera"
+        android:scaleX="1.52"
+        android:scaleY="1.5"
+        android:text="Start Scanner"
+        android:translationY="400px" />
+
+</LinearLayout>
